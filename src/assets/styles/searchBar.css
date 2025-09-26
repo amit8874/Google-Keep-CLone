@@ -1,0 +1,34 @@
+.searchBarParentContainer{
+    background: #f1f3f4;
+    max-width: 720px;
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBarIconContainer{
+    padding: 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.searchBarInputContainer{
+    flex: 1;
+    align-self: stretch;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 11px 0;
+    font-size: 16px;
+}
+
+.searchBarParentContainer:focus-within{
+    background:#fff;
+    border: 1px solid transparent;
+    box-sizing: 0 1px 1px 0 rgba(65,69,73,0.3), 
+        0 1px 3px 1px rgba(65,69,73,0.15);
+}
