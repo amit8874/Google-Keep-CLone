@@ -1,12 +1,48 @@
-# React + Vite
+# 📝 Google Keep Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Google Keep Clone** built using **React.js** and **Redux**, designed to create, edit, and manage notes efficiently. This project replicates the core features of Google Keep with a clean UI and smooth user experience.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✍️ Create, edit, and delete notes  
+- 🎨 Change note background colors  
+- 📌 Pin/unpin important notes  
+- 🖼️ Add images to notes  
+- 🔍 Search and filter notes  
+- 📱 Fully responsive design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Redux, CSS  
+- **Icons & Styling:** FontAwesome, Custom CSS  
+- **State Management:** Redux Toolkit  
+
+---
+
+## 📸 Screenshots
+
+## 📸 Screenshots
+
+| Homepage | Add Note |
+|----------|----------|
+| ![Homepage](src/assets/ScreenShot/Screenshot%20(25).png) | ![Add Note](src/assets/ScreenShot/Screenshot%20(26).png) |
+
+| Notes Grid | Edit Note |
+|------------|-----------|
+| ![Notes Grid](src/assets/ScreenShot/Screenshot%20(27).png) | ![Edit Note](src/assets/ScreenShot/Screenshot%20(28).png) |
+
+| 📥 Archive | 🗑️ Trash |
+|------------|-----------|
+| ![Archive](src/assets/ScreenShot/Screenshot%20(31).png) | ![Trash](src/assets/ScreenShot/Screenshot%20(32).png) |
+
+
+
+## 📂 Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/amit8874/Google-Keep-CLone.git
